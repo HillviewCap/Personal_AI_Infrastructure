@@ -1,0 +1,437 @@
+2025-12-17T01:44:53.668Z [DEBUG] Watching for changes in setting files /home/jenkins/.claude/settings.json, /home/jenkins/Personal_AI_Infrastructure/.claude/settings.json...
+2025-12-17T01:44:53.694Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-12-17T01:44:53.694Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-12-17T01:44:53.694Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-12-17T01:44:53.696Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935893696
+2025-12-17T01:44:53.696Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:53.700Z [DEBUG] Temp file written successfully, size: 50865 bytes
+2025-12-17T01:44:53.700Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:53.700Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935893696 to /home/jenkins/.claude.json
+2025-12-17T01:44:53.700Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:53.702Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935893702
+2025-12-17T01:44:53.702Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:53.706Z [DEBUG] Temp file written successfully, size: 50900 bytes
+2025-12-17T01:44:53.706Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:53.706Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935893702 to /home/jenkins/.claude.json
+2025-12-17T01:44:53.706Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:53.708Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935893708
+2025-12-17T01:44:53.708Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:53.711Z [DEBUG] Temp file written successfully, size: 50937 bytes
+2025-12-17T01:44:53.711Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:53.711Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935893708 to /home/jenkins/.claude.json
+2025-12-17T01:44:53.711Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:53.712Z [DEBUG] LSP server manager initialized successfully
+2025-12-17T01:44:53.712Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-12-17T01:44:53.715Z [DEBUG] Applying permission update: Adding 15 allow rule(s) to destination 'userSettings': ["Bash","Read","Write","Edit","MultiEdit","Glob","Grep","WebFetch(domain:*)","WebSearch","NotebookRead","NotebookEdit","TodoWrite","ExitPlanMode","Task","mcp__*"]
+2025-12-17T01:44:53.715Z [DEBUG] Applying permission update: Adding 32 deny rule(s) to destination 'userSettings': ["Bash(diskutil partitionDisk)","Bash(diskutil eraseDisk)","Bash(diskutil eraseVolume)","Bash(diskutil reformat)","Bash(diskutil zeroDisk)","Bash(diskutil appleRAID)","Bash(diskutil randomDisk)","Bash(diskutil coreStorage)","Bash(diskutil cs)","Bash(diskutil disableJournal)","Bash(diskutil resetFusion)","Bash(diskutil disableOwnership)","Bash(diskutil apfs deleteContainer)","Bash(diskutil apfs eraseVolume)","Bash(diskutil apfs decryptVolume)","Bash(diskutil apfs changePassphrase)","Bash(diskutil apfs deleteVolume)","Bash(diskutil apfs deleteVolumeGroup)","Bash(diskutil apfs deleteSnapshot)","Bash(rm -rf /)","Bash(rm -rf /*)","Bash(rm -rf ~)","Bash(rm -rf $HOME)","Bash(rm -rf $PAI_HOME)","Bash(rm -rf $PAI_DIR)","Bash(sudo rm -rf /)","Bash(sudo rm -rf /*)","Bash(fork bomb)","Bash(dd if=/dev/zero of=/dev/sda)","Bash(mkfs.ext4 /dev/sda)","Bash( /dev/sda)","Bash(> /dev/sda)"]
+2025-12-17T01:44:53.715Z [DEBUG] Applying permission update: Adding 15 allow rule(s) to destination 'projectSettings': ["Bash","Read","Write","Edit","MultiEdit","Glob","Grep","WebFetch(domain:*)","WebSearch","NotebookRead","NotebookEdit","TodoWrite","ExitPlanMode","Task","mcp__*"]
+2025-12-17T01:44:53.715Z [DEBUG] Applying permission update: Adding 32 deny rule(s) to destination 'projectSettings': ["Bash(diskutil partitionDisk)","Bash(diskutil eraseDisk)","Bash(diskutil eraseVolume)","Bash(diskutil reformat)","Bash(diskutil zeroDisk)","Bash(diskutil appleRAID)","Bash(diskutil randomDisk)","Bash(diskutil coreStorage)","Bash(diskutil cs)","Bash(diskutil disableJournal)","Bash(diskutil resetFusion)","Bash(diskutil disableOwnership)","Bash(diskutil apfs deleteContainer)","Bash(diskutil apfs eraseVolume)","Bash(diskutil apfs decryptVolume)","Bash(diskutil apfs changePassphrase)","Bash(diskutil apfs deleteVolume)","Bash(diskutil apfs deleteVolumeGroup)","Bash(diskutil apfs deleteSnapshot)","Bash(rm -rf /)","Bash(rm -rf /*)","Bash(rm -rf ~)","Bash(rm -rf $HOME)","Bash(rm -rf $PAI_HOME)","Bash(rm -rf $PAI_DIR)","Bash(sudo rm -rf /)","Bash(sudo rm -rf /*)","Bash(fork bomb)","Bash(dd if=/dev/zero of=/dev/sda)","Bash(mkfs.ext4 /dev/sda)","Bash( /dev/sda)","Bash(> /dev/sda)"]
+2025-12-17T01:44:53.724Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-12-17T01:44:53.724Z [DEBUG] Plugin not available for MCP: browser-automation@browser-tools - error type: plugin-not-found
+2025-12-17T01:44:53.727Z [DEBUG] Stats cache does not exist, returning empty cache
+2025-12-17T01:44:53.727Z [DEBUG] Stats cache empty, processing all historical data in background
+2025-12-17T01:44:53.738Z [DEBUG] [SLOW OPERATION DETECTED] execSyncWithDefaults_DEPRECATED (10.1ms): ldd /bin/ls 2>/dev/null
+2025-12-17T01:44:53.748Z [DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/jenkins/.claude/skills, project=[/home/jenkins/Personal_AI_Infrastructure/.claude/skills]
+2025-12-17T01:44:53.750Z [DEBUG] Passes: No cache, fetching eligibility
+2025-12-17T01:44:53.756Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2025-12-17T01:44:53.772Z [DEBUG] Creating shell snapshot for bash (/bin/bash)
+2025-12-17T01:44:53.772Z [DEBUG] Looking for shell config file: /home/jenkins/.bashrc
+2025-12-17T01:44:53.772Z [DEBUG] Snapshots directory: /home/jenkins/.claude/shell-snapshots
+2025-12-17T01:44:53.773Z [DEBUG] Creating snapshot at: /home/jenkins/.claude/shell-snapshots/snapshot-bash-1765935893772-6y2cqa.sh
+2025-12-17T01:44:53.773Z [DEBUG] Shell binary exists: true
+2025-12-17T01:44:53.773Z [DEBUG] Execution timeout: 10000ms
+2025-12-17T01:44:53.776Z [DEBUG] Writing to temp file: /home/jenkins/.claude/todos/5eac5945-4cf4-4f5c-a46a-1f8dacb407aa-agent-5eac5945-4cf4-4f5c-a46a-1f8dacb407aa.json.tmp.1202187.1765935893776
+2025-12-17T01:44:53.779Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-12-17T01:44:53.779Z [DEBUG] Renaming /home/jenkins/.claude/todos/5eac5945-4cf4-4f5c-a46a-1f8dacb407aa-agent-5eac5945-4cf4-4f5c-a46a-1f8dacb407aa.json.tmp.1202187.1765935893776 to /home/jenkins/.claude/todos/5eac5945-4cf4-4f5c-a46a-1f8dacb407aa-agent-5eac5945-4cf4-4f5c-a46a-1f8dacb407aa.json
+2025-12-17T01:44:53.779Z [DEBUG] File /home/jenkins/.claude/todos/5eac5945-4cf4-4f5c-a46a-1f8dacb407aa-agent-5eac5945-4cf4-4f5c-a46a-1f8dacb407aa.json written atomically
+2025-12-17T01:44:53.794Z [DEBUG] Plugin loading errors: Plugin browser-automation not found in marketplace browser-tools
+2025-12-17T01:44:53.794Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-12-17T01:44:53.794Z [DEBUG] Total plugin skills loaded: 0
+2025-12-17T01:44:53.794Z [DEBUG] Plugin loading errors: Plugin browser-automation not found in marketplace browser-tools
+2025-12-17T01:44:53.794Z [DEBUG] Total plugin commands loaded: 0
+2025-12-17T01:44:53.794Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'AlexHormoziPitch' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'Art' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'BrightData' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'CORE' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'CreateCLI' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'Createskill' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'Fabric' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'Ffuf' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'Observability' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'Prompting' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'Research' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Skipping duplicate skill 'StoryExplanation' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.799Z [DEBUG] Deduplicated 12 skills (same inode via symlinks or parent directories)
+2025-12-17T01:44:53.799Z [DEBUG] Loaded 12 unique skills (managed: 0, user: 12, project: 12, duplicates removed: 12)
+2025-12-17T01:44:53.799Z [DEBUG] getSkills returning: 12 skill dir commands, 0 plugin skills
+2025-12-17T01:44:53.806Z [DEBUG] Git remote URL: https://github.com/HillviewCap/Personal_AI_Infrastructure.git
+2025-12-17T01:44:53.806Z [DEBUG] Parsed repository: HillviewCap/Personal_AI_Infrastructure from https://github.com/HillviewCap/Personal_AI_Infrastructure.git
+2025-12-17T01:44:53.806Z [DEBUG] Parsed repository: HillviewCap/Personal_AI_Infrastructure from URL: https://github.com/HillviewCap/Personal_AI_Infrastructure.git
+2025-12-17T01:44:53.807Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935893807
+2025-12-17T01:44:53.807Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:53.810Z [DEBUG] Temp file written successfully, size: 51068 bytes
+2025-12-17T01:44:53.810Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:53.810Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935893807 to /home/jenkins/.claude.json
+2025-12-17T01:44:53.810Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:53.810Z [DEBUG] Added /home/jenkins/Personal_AI_Infrastructure to tracked paths for repo hillviewcap/personal_ai_infrastructure
+2025-12-17T01:44:53.828Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/jenkins/Personal_AI_Infrastructure/.claude/local/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2025-12-17T01:44:53.830Z [DEBUG] Shell snapshot created successfully (3581 bytes)
+2025-12-17T01:44:53.833Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/commands/Example.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.833Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/commands/paiupdate.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.833Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/commands/pa.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.833Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/commands/README.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.833Z [DEBUG] Deduplicated 4 files in commands (same inode via symlinks or hard links)
+2025-12-17T01:44:53.849Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/agents/PerplexityResearcher.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.849Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/agents/Researcher.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.849Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/agents/GeminiResearcher.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.849Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/agents/Engineer.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.849Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/agents/ClaudeResearcher.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.849Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/agents/Designer.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.849Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/agents/Architect.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.849Z [DEBUG] Skipping duplicate file '/home/jenkins/Personal_AI_Infrastructure/.claude/agents/Pentester.md' from projectSettings (same inode already loaded from userSettings)
+2025-12-17T01:44:53.849Z [DEBUG] Deduplicated 8 files in agents (same inode via symlinks or hard links)
+2025-12-17T01:44:53.849Z [DEBUG] Plugin loading errors: Plugin browser-automation not found in marketplace browser-tools
+2025-12-17T01:44:53.849Z [DEBUG] Total plugin agents loaded: 0
+2025-12-17T01:44:53.925Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935893925
+2025-12-17T01:44:53.925Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:53.929Z [DEBUG] Temp file written successfully, size: 51068 bytes
+2025-12-17T01:44:53.929Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:53.929Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935893925 to /home/jenkins/.claude.json
+2025-12-17T01:44:53.930Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:53.960Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935893960
+2025-12-17T01:44:53.960Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:53.963Z [DEBUG] Temp file written successfully, size: 51131 bytes
+2025-12-17T01:44:53.963Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:53.963Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935893960 to /home/jenkins/.claude.json
+2025-12-17T01:44:53.963Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:53.965Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935893965
+2025-12-17T01:44:53.965Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:53.968Z [DEBUG] Temp file written successfully, size: 51183 bytes
+2025-12-17T01:44:53.968Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:53.968Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935893965 to /home/jenkins/.claude.json
+2025-12-17T01:44:53.968Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:53.970Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935893970
+2025-12-17T01:44:53.970Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:53.974Z [DEBUG] Temp file written successfully, size: 51213 bytes
+2025-12-17T01:44:53.974Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:53.974Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935893970 to /home/jenkins/.claude.json
+2025-12-17T01:44:53.974Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.055Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894055
+2025-12-17T01:44:54.055Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.058Z [DEBUG] Temp file written successfully, size: 51540 bytes
+2025-12-17T01:44:54.058Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.058Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894055 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.058Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.059Z [DEBUG] Passes eligibility cached for org 0e90acf2-a4a9-4de4-a16c-f8d1f45a51cf: true
+2025-12-17T01:44:54.061Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894061
+2025-12-17T01:44:54.061Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.064Z [DEBUG] Temp file written successfully, size: 51598 bytes
+2025-12-17T01:44:54.064Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.064Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894061 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.064Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.066Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894066
+2025-12-17T01:44:54.066Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.069Z [DEBUG] Temp file written successfully, size: 51628 bytes
+2025-12-17T01:44:54.069Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.069Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894066 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.069Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.084Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894084
+2025-12-17T01:44:54.084Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.094Z [DEBUG] [SLOW OPERATION DETECTED] fs.writeFileSync (9.8ms)
+2025-12-17T01:44:54.094Z [DEBUG] Temp file written successfully, size: 51653 bytes
+2025-12-17T01:44:54.094Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.094Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894084 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.094Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.105Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894105
+2025-12-17T01:44:54.105Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.108Z [DEBUG] Temp file written successfully, size: 51690 bytes
+2025-12-17T01:44:54.108Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.108Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894105 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.108Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.391Z [DEBUG] Passes: Using fresh cached eligibility data
+2025-12-17T01:44:54.400Z [DEBUG] Creating installed_plugins.json from settings.json files
+2025-12-17T01:44:54.411Z [DEBUG] Plugin browser-automation@browser-tools not found in any marketplace, skipping
+2025-12-17T01:44:54.414Z [DEBUG] Saved 0 installed plugins to /home/jenkins/.claude/plugins/installed_plugins.json
+2025-12-17T01:44:54.414Z [DEBUG] Sync completed: 0 added, 0 updated in installed_plugins.json
+2025-12-17T01:44:54.416Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2025-12-17T01:44:54.417Z [DEBUG] [ColorDiff] Not in bundled mode, using JS fallback
+2025-12-17T01:44:54.418Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894418
+2025-12-17T01:44:54.418Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.421Z [DEBUG] Temp file written successfully, size: 51690 bytes
+2025-12-17T01:44:54.421Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.421Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894418 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.421Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.439Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2025-12-17T01:44:54.439Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:44:54.439Z [DEBUG] Matched 3 unique hooks for query "startup" (6 before deduplication)
+2025-12-17T01:44:54.442Z [DEBUG] Skills and commands included in Skill tool: alex-hormozi-pitch, art, brightdata, CORE, system-createcli, Createskill, fabric, ffuf-web-fuzzing, Observability, prompting, research, story-explanation
+2025-12-17T01:44:54.442Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-12-17T01:44:54.480Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2025-12-17T01:44:54.480Z [DEBUG] Found 0 hook matchers in settings
+2025-12-17T01:44:54.480Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2025-12-17T01:44:54.487Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2025-12-17T01:44:54.487Z [DEBUG] Found 0 hook matchers in settings
+2025-12-17T01:44:54.487Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2025-12-17T01:44:54.494Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:44:54.494Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:44:54.494Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:44:54.541Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894541
+2025-12-17T01:44:54.541Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.544Z [DEBUG] Temp file written successfully, size: 51726 bytes
+2025-12-17T01:44:54.544Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.544Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894541 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.544Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.546Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894546
+2025-12-17T01:44:54.546Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.550Z [DEBUG] Temp file written successfully, size: 51726 bytes
+2025-12-17T01:44:54.550Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.550Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894546 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.550Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.552Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894552
+2025-12-17T01:44:54.552Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.555Z [DEBUG] Temp file written successfully, size: 51808 bytes
+2025-12-17T01:44:54.555Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.555Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894552 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.555Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.565Z [DEBUG] performStartupChecks called
+2025-12-17T01:44:54.565Z [DEBUG] Starting background plugin installations
+2025-12-17T01:44:54.566Z [DEBUG] performBackgroundPluginInstallations called
+2025-12-17T01:44:54.578Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-local
+2025-12-17T01:44:54.578Z [DEBUG] Plugin not available for MCP: browser-automation@browser-tools - error type: plugin-not-found
+2025-12-17T01:44:54.579Z [DEBUG] Plugin not available for MCP: browser-automation@browser-tools - error type: plugin-not-found
+2025-12-17T01:44:54.580Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894580
+2025-12-17T01:44:54.580Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.583Z [DEBUG] Temp file written successfully, size: 51913 bytes
+2025-12-17T01:44:54.583Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.583Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894580 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.584Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.587Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894587
+2025-12-17T01:44:54.587Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.590Z [DEBUG] Temp file written successfully, size: 51961 bytes
+2025-12-17T01:44:54.590Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.590Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894587 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.590Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.592Z [DEBUG] Found 1 enabled plugins
+2025-12-17T01:44:54.593Z [DEBUG] Syncing installed_plugins.json with enabledPlugins from all settings.json files
+2025-12-17T01:44:54.593Z [DEBUG] Found 0 installed plugins (V2 format)
+2025-12-17T01:44:54.594Z [DEBUG] Attempting to auto-install official marketplace
+2025-12-17T01:44:54.601Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 1
+2025-12-17T01:44:54.601Z [DEBUG] Found 1 missing plugins (not installed): browser-automation@browser-tools
+2025-12-17T01:44:54.601Z [DEBUG] Cannot install 1 plugins because their marketplaces are not installed or configured: browser-tools
+2025-12-17T01:44:54.601Z [DEBUG] Uninstallable plugins: browser-automation@browser-tools
+2025-12-17T01:44:54.601Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 1 uninstallable plugins
+2025-12-17T01:44:54.602Z [DEBUG] Plugin browser-automation@browser-tools not found in any marketplace, skipping
+2025-12-17T01:44:54.621Z [DEBUG] Plugin installation status: 0 failed marketplaces, 1 failed plugins
+2025-12-17T01:44:54.621Z [DEBUG] Adding notification for 1 failed installations
+2025-12-17T01:44:54.623Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894623
+2025-12-17T01:44:54.623Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.627Z [DEBUG] Temp file written successfully, size: 52137 bytes
+2025-12-17T01:44:54.627Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.627Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894623 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.627Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.645Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894644
+2025-12-17T01:44:54.645Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.648Z [DEBUG] Temp file written successfully, size: 52183 bytes
+2025-12-17T01:44:54.648Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.648Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894644 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.648Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.660Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894660
+2025-12-17T01:44:54.660Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.664Z [DEBUG] Temp file written successfully, size: 52364 bytes
+2025-12-17T01:44:54.664Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.664Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894660 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.664Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.670Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935894670
+2025-12-17T01:44:54.670Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:54.673Z [DEBUG] Temp file written successfully, size: 52364 bytes
+2025-12-17T01:44:54.673Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:54.673Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935894670 to /home/jenkins/.claude.json
+2025-12-17T01:44:54.673Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:54.917Z [INFO] SSH not configured for GitHub, using HTTPS for anthropics/claude-plugins-official
+2025-12-17T01:44:55.327Z [DEBUG] Added marketplace source: claude-plugins-official
+2025-12-17T01:44:55.327Z [DEBUG] Successfully auto-installed official marketplace
+2025-12-17T01:44:55.328Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935895328
+2025-12-17T01:44:55.328Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:44:55.331Z [DEBUG] Temp file written successfully, size: 52459 bytes
+2025-12-17T01:44:55.331Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:44:55.331Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935895328 to /home/jenkins/.claude.json
+2025-12-17T01:44:55.331Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:44:55.332Z [DEBUG] Showing marketplace installation success notification
+2025-12-17T01:44:55.784Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:44:56.805Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:44:57.571Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-12-17T01:44:57.571Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:44:57.571Z [DEBUG] Matched 2 unique hooks for query "no match query" (4 before deduplication)
+2025-12-17T01:44:57.593Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:44:57.593Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:45:10.879Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-12-17T01:45:10.880Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:45:10.880Z [DEBUG] Matched 2 unique hooks for query "no match query" (4 before deduplication)
+2025-12-17T01:45:10.902Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:45:10.902Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:45:54.096Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935954096
+2025-12-17T01:45:54.096Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:45:54.100Z [DEBUG] Temp file written successfully, size: 52487 bytes
+2025-12-17T01:45:54.100Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:45:54.100Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935954096 to /home/jenkins/.claude.json
+2025-12-17T01:45:54.100Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:45:54.101Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-17T01:45:54.101Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-17T01:45:54.102Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-17T01:45:54.102Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-17T01:45:54.123Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-12-17T01:45:54.123Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:45:54.123Z [DEBUG] Matched 2 unique hooks for query "no match query" (4 before deduplication)
+2025-12-17T01:45:54.135Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:45:54.135Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:45:54.136Z [DEBUG] FileHistory: Added snapshot for 295d5bee-e9dc-45da-b74c-f094d30baa80, tracking 0 files
+2025-12-17T01:45:54.158Z [DEBUG] Plugin loading errors: Plugin browser-automation not found in marketplace browser-tools
+2025-12-17T01:45:54.158Z [DEBUG] Total plugin output styles loaded: 0
+2025-12-17T01:45:55.119Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:45:57.016Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:46:00.519Z [DEBUG] executePreToolHooks called for tool: Glob
+2025-12-17T01:46:00.520Z [DEBUG] executePreToolHooks called for tool: Glob
+2025-12-17T01:46:00.524Z [DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+2025-12-17T01:46:00.524Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:00.524Z [DEBUG] Matched 1 unique hooks for query "Glob" (2 before deduplication)
+2025-12-17T01:46:00.524Z [DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+2025-12-17T01:46:00.524Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:00.524Z [DEBUG] Matched 1 unique hooks for query "Glob" (2 before deduplication)
+2025-12-17T01:46:00.524Z [DEBUG] executePreToolHooks called for tool: Read
+2025-12-17T01:46:00.545Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-12-17T01:46:00.545Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:00.545Z [DEBUG] Matched 1 unique hooks for query "Read" (2 before deduplication)
+2025-12-17T01:46:00.553Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.554Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.568Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.621Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-12-17T01:46:00.621Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:00.621Z [DEBUG] Matched 2 unique hooks for query "Read" (4 before deduplication)
+2025-12-17T01:46:00.640Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2025-12-17T01:46:00.640Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:00.640Z [DEBUG] Matched 2 unique hooks for query "Glob" (4 before deduplication)
+2025-12-17T01:46:00.650Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.650Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.661Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2025-12-17T01:46:00.661Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:00.661Z [DEBUG] Matched 2 unique hooks for query "Glob" (4 before deduplication)
+2025-12-17T01:46:00.671Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.671Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.687Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.687Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:00.688Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-17T01:46:00.688Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-17T01:46:00.688Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-17T01:46:00.688Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-17T01:46:06.611Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:46:12.533Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-12-17T01:46:12.534Z [DEBUG] executePreToolHooks called for tool: Glob
+2025-12-17T01:46:12.544Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-12-17T01:46:12.544Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:12.544Z [DEBUG] Matched 1 unique hooks for query "Bash" (2 before deduplication)
+2025-12-17T01:46:12.544Z [DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+2025-12-17T01:46:12.544Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:12.544Z [DEBUG] Matched 1 unique hooks for query "Glob" (2 before deduplication)
+2025-12-17T01:46:12.562Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:12.563Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:12.581Z [DEBUG] tree-sitter: WASM files not found
+2025-12-17T01:46:12.602Z [DEBUG] No session environment scripts found
+2025-12-17T01:46:12.616Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2025-12-17T01:46:12.616Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:12.616Z [DEBUG] Matched 2 unique hooks for query "Glob" (4 before deduplication)
+2025-12-17T01:46:12.627Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:12.637Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:12.654Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-12-17T01:46:12.654Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:12.654Z [DEBUG] Matched 2 unique hooks for query "Bash" (4 before deduplication)
+2025-12-17T01:46:12.671Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:12.671Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:12.673Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-17T01:46:12.673Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-17T01:46:12.673Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-17T01:46:12.673Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-17T01:46:13.553Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:46:19.384Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:46:22.049Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-12-17T01:46:22.053Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-12-17T01:46:22.053Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:22.053Z [DEBUG] Matched 1 unique hooks for query "Edit" (2 before deduplication)
+2025-12-17T01:46:22.065Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:22.081Z [DEBUG] Reading through symlink: /home/jenkins/.claude/settings.json -> /home/jenkins/Personal_AI_Infrastructure/.claude/settings.json
+2025-12-17T01:46:22.083Z [DEBUG] Writing to temp file: /home/jenkins/.claude/settings.json.tmp.1202187.1765935982083
+2025-12-17T01:46:22.083Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:46:22.087Z [DEBUG] Temp file written successfully, size: 5627 bytes
+2025-12-17T01:46:22.087Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:46:22.087Z [DEBUG] Renaming /home/jenkins/.claude/settings.json.tmp.1202187.1765935982083 to /home/jenkins/.claude/settings.json
+2025-12-17T01:46:22.087Z [DEBUG] File /home/jenkins/.claude/settings.json written atomically
+2025-12-17T01:46:22.096Z [DEBUG] FileHistory: Tracked file modification for /home/jenkins/.claude/settings.json
+2025-12-17T01:46:22.105Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-12-17T01:46:22.105Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:22.105Z [DEBUG] Matched 2 unique hooks for query "Edit" (4 before deduplication)
+2025-12-17T01:46:22.118Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:22.118Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:22.120Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-12-17T01:46:22.120Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-12-17T01:46:22.120Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-12-17T01:46:22.120Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-12-17T01:46:23.103Z [DEBUG] Detected change to /home/jenkins/.claude/settings.json
+2025-12-17T01:46:23.107Z [DEBUG] Settings changed from userSettings, updating AppState
+2025-12-17T01:46:23.108Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 15 rule(s): ["Bash","Read","Write","Edit","MultiEdit","Glob","Grep","WebFetch(domain:*)","WebSearch","NotebookRead","NotebookEdit","TodoWrite","ExitPlanMode","Task","mcp__*"]
+2025-12-17T01:46:23.108Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 32 rule(s): ["Bash(diskutil partitionDisk)","Bash(diskutil eraseDisk)","Bash(diskutil eraseVolume)","Bash(diskutil reformat)","Bash(diskutil zeroDisk)","Bash(diskutil appleRAID)","Bash(diskutil randomDisk)","Bash(diskutil coreStorage)","Bash(diskutil cs)","Bash(diskutil disableJournal)","Bash(diskutil resetFusion)","Bash(diskutil disableOwnership)","Bash(diskutil apfs deleteContainer)","Bash(diskutil apfs eraseVolume)","Bash(diskutil apfs decryptVolume)","Bash(diskutil apfs changePassphrase)","Bash(diskutil apfs deleteVolume)","Bash(diskutil apfs deleteVolumeGroup)","Bash(diskutil apfs deleteSnapshot)","Bash(rm -rf /)","Bash(rm -rf /*)","Bash(rm -rf ~)","Bash(rm -rf $HOME)","Bash(rm -rf $PAI_HOME)","Bash(rm -rf $PAI_DIR)","Bash(sudo rm -rf /)","Bash(sudo rm -rf /*)","Bash(fork bomb)","Bash(dd if=/dev/zero of=/dev/sda)","Bash(mkfs.ext4 /dev/sda)","Bash( /dev/sda)","Bash(> /dev/sda)"]
+2025-12-17T01:46:23.108Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 15 rule(s): ["Bash","Read","Write","Edit","MultiEdit","Glob","Grep","WebFetch(domain:*)","WebSearch","NotebookRead","NotebookEdit","TodoWrite","ExitPlanMode","Task","mcp__*"]
+2025-12-17T01:46:23.108Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 32 rule(s): ["Bash(diskutil partitionDisk)","Bash(diskutil eraseDisk)","Bash(diskutil eraseVolume)","Bash(diskutil reformat)","Bash(diskutil zeroDisk)","Bash(diskutil appleRAID)","Bash(diskutil randomDisk)","Bash(diskutil coreStorage)","Bash(diskutil cs)","Bash(diskutil disableJournal)","Bash(diskutil resetFusion)","Bash(diskutil disableOwnership)","Bash(diskutil apfs deleteContainer)","Bash(diskutil apfs eraseVolume)","Bash(diskutil apfs decryptVolume)","Bash(diskutil apfs changePassphrase)","Bash(diskutil apfs deleteVolume)","Bash(diskutil apfs deleteVolumeGroup)","Bash(diskutil apfs deleteSnapshot)","Bash(rm -rf /)","Bash(rm -rf /*)","Bash(rm -rf ~)","Bash(rm -rf $HOME)","Bash(rm -rf $PAI_HOME)","Bash(rm -rf $PAI_DIR)","Bash(sudo rm -rf /)","Bash(sudo rm -rf /*)","Bash(fork bomb)","Bash(dd if=/dev/zero of=/dev/sda)","Bash(mkfs.ext4 /dev/sda)","Bash( /dev/sda)","Bash(> /dev/sda)"]
+2025-12-17T01:46:23.108Z [DEBUG] Detected change to /home/jenkins/Personal_AI_Infrastructure/.claude/settings.json
+2025-12-17T01:46:23.110Z [DEBUG] Settings changed from projectSettings, updating AppState
+2025-12-17T01:46:23.112Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 15 rule(s): ["Bash","Read","Write","Edit","MultiEdit","Glob","Grep","WebFetch(domain:*)","WebSearch","NotebookRead","NotebookEdit","TodoWrite","ExitPlanMode","Task","mcp__*"]
+2025-12-17T01:46:23.112Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 32 rule(s): ["Bash(diskutil partitionDisk)","Bash(diskutil eraseDisk)","Bash(diskutil eraseVolume)","Bash(diskutil reformat)","Bash(diskutil zeroDisk)","Bash(diskutil appleRAID)","Bash(diskutil randomDisk)","Bash(diskutil coreStorage)","Bash(diskutil cs)","Bash(diskutil disableJournal)","Bash(diskutil resetFusion)","Bash(diskutil disableOwnership)","Bash(diskutil apfs deleteContainer)","Bash(diskutil apfs eraseVolume)","Bash(diskutil apfs decryptVolume)","Bash(diskutil apfs changePassphrase)","Bash(diskutil apfs deleteVolume)","Bash(diskutil apfs deleteVolumeGroup)","Bash(diskutil apfs deleteSnapshot)","Bash(rm -rf /)","Bash(rm -rf /*)","Bash(rm -rf ~)","Bash(rm -rf $HOME)","Bash(rm -rf $PAI_HOME)","Bash(rm -rf $PAI_DIR)","Bash(sudo rm -rf /)","Bash(sudo rm -rf /*)","Bash(fork bomb)","Bash(dd if=/dev/zero of=/dev/sda)","Bash(mkfs.ext4 /dev/sda)","Bash( /dev/sda)","Bash(> /dev/sda)"]
+2025-12-17T01:46:23.112Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 15 rule(s): ["Bash","Read","Write","Edit","MultiEdit","Glob","Grep","WebFetch(domain:*)","WebSearch","NotebookRead","NotebookEdit","TodoWrite","ExitPlanMode","Task","mcp__*"]
+2025-12-17T01:46:23.112Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 32 rule(s): ["Bash(diskutil partitionDisk)","Bash(diskutil eraseDisk)","Bash(diskutil eraseVolume)","Bash(diskutil reformat)","Bash(diskutil zeroDisk)","Bash(diskutil appleRAID)","Bash(diskutil randomDisk)","Bash(diskutil coreStorage)","Bash(diskutil cs)","Bash(diskutil disableJournal)","Bash(diskutil resetFusion)","Bash(diskutil disableOwnership)","Bash(diskutil apfs deleteContainer)","Bash(diskutil apfs eraseVolume)","Bash(diskutil apfs decryptVolume)","Bash(diskutil apfs changePassphrase)","Bash(diskutil apfs deleteVolume)","Bash(diskutil apfs deleteVolumeGroup)","Bash(diskutil apfs deleteSnapshot)","Bash(rm -rf /)","Bash(rm -rf /*)","Bash(rm -rf ~)","Bash(rm -rf $HOME)","Bash(rm -rf $PAI_HOME)","Bash(rm -rf $PAI_DIR)","Bash(sudo rm -rf /)","Bash(sudo rm -rf /*)","Bash(fork bomb)","Bash(dd if=/dev/zero of=/dev/sda)","Bash(mkfs.ext4 /dev/sda)","Bash( /dev/sda)","Bash(> /dev/sda)"]
+2025-12-17T01:46:25.603Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:46:28.037Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-12-17T01:46:28.037Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:28.037Z [DEBUG] Matched 2 unique hooks for query "no match query" (4 before deduplication)
+2025-12-17T01:46:28.081Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:28.093Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:28.107Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935988107
+2025-12-17T01:46:28.107Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:46:28.110Z [DEBUG] Temp file written successfully, size: 52536 bytes
+2025-12-17T01:46:28.110Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:46:28.110Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935988107 to /home/jenkins/.claude.json
+2025-12-17T01:46:28.111Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:46:28.124Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765935988124
+2025-12-17T01:46:28.124Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:46:28.127Z [DEBUG] Temp file written successfully, size: 52574 bytes
+2025-12-17T01:46:28.127Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:46:28.127Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765935988124 to /home/jenkins/.claude.json
+2025-12-17T01:46:28.127Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:46:33.390Z [DEBUG] Stream started - received first chunk
+2025-12-17T01:46:39.449Z [DEBUG] Streaming aborted by user: Request was aborted.
+2025-12-17T01:46:39.449Z [ERROR] Error in non-streaming fallback: Request was aborted.
+2025-12-17T01:46:39.450Z [ERROR] Error: Error: Request was aborted.
+    at T1A._createMessage (file:///home/jenkins/Personal_AI_Infrastructure/.claude/local/node_modules/@anthropic-ai/claude-code/cli.js:464:3157)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-17T01:46:40.217Z [DEBUG] Getting matching hook commands for SessionEnd with query: prompt_input_exit
+2025-12-17T01:46:40.217Z [DEBUG] Found 2 hook matchers in settings
+2025-12-17T01:46:40.217Z [DEBUG] Matched 2 unique hooks for query "prompt_input_exit" (4 before deduplication)
+2025-12-17T01:46:40.231Z [DEBUG] FileHistory: Making snapshot for message 649946bb-e555-4d2f-90eb-ff9f1d77aff3
+2025-12-17T01:46:40.231Z [DEBUG] FileHistory: Added snapshot for 649946bb-e555-4d2f-90eb-ff9f1d77aff3, tracking 1 files
+2025-12-17T01:46:40.233Z [DEBUG] UserCommandMessage rendering: "exit" (args: "none")
+2025-12-17T01:46:40.233Z [DEBUG] isSkillFormat: false, prefix: "/"
+2025-12-17T01:46:40.259Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-local
+2025-12-17T01:46:40.270Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765936000270
+2025-12-17T01:46:40.270Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:46:40.273Z [DEBUG] Temp file written successfully, size: 52596 bytes
+2025-12-17T01:46:40.273Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:46:40.273Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765936000270 to /home/jenkins/.claude.json
+2025-12-17T01:46:40.273Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:46:40.276Z [DEBUG] Writing to temp file: /home/jenkins/.claude.json.tmp.1202187.1765936000276
+2025-12-17T01:46:40.276Z [DEBUG] Preserving file permissions: 100664
+2025-12-17T01:46:40.279Z [DEBUG] Temp file written successfully, size: 52621 bytes
+2025-12-17T01:46:40.279Z [DEBUG] Applied original permissions to temp file
+2025-12-17T01:46:40.279Z [DEBUG] Renaming /home/jenkins/.claude.json.tmp.1202187.1765936000276 to /home/jenkins/.claude.json
+2025-12-17T01:46:40.279Z [DEBUG] File /home/jenkins/.claude.json written atomically
+2025-12-17T01:46:40.284Z [DEBUG] SessionEnd:prompt_input_exit [${PAI_DIR}/hooks/capture-session-summary.ts] completed with status 0
+2025-12-17T01:46:40.284Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-12-17T01:46:40.284Z [DEBUG] SessionEnd:prompt_input_exit [${PAI_DIR}/hooks/capture-all-events.ts --event-type SessionEnd] completed with status 0
+2025-12-17T01:46:40.284Z [DEBUG] Hook output does not start with {, treating as plain text

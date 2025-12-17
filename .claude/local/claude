@@ -1,0 +1,2 @@
+#!/bin/bash
+exec "/home/jenkins/.claude/local/node_modules/.bin/claude" "$@"
